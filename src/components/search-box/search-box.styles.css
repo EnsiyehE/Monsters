@@ -1,0 +1,9 @@
+.search-box {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 15px; /* Increase the padding to make the search box taller */
+  width: 250px; /* Increase the width to make the search box wider */
+  line-height: 40px; /* Increase the line-height to vertically center the text */
+  margin-bottom: 30px;
+}

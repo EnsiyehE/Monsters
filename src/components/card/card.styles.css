@@ -1,0 +1,24 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card_container img {
+  /* Add the following styles for the img element */
+  max-width: 100%; /* Set the maximum width to 100% of the container */
+  max-height: 220px; /* Set the maximum height to 180 pixels */
+  object-fit: contain; /* Maintain aspect ratio and fit the image within the container */
+}
+
+.card_container:hover {
+  transform: scale(1.05);
+}
